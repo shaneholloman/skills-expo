@@ -8,7 +8,7 @@ import Ajv2020 from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
 import yaml from 'js-yaml';
 
-import { fetchCached } from './fetch';
+import { fetchCached } from './fetch.js';
 
 const SCHEMA_URL = 'https://api.expo.dev/v2/workflows/schema';
 
