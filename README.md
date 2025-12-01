@@ -11,10 +11,17 @@ This repository contains a collection of AI agent skills for Expo developers.
 
 Your system's default version of Node must be version 22.18.0 or newer.
 
-Clone this repository and run `./install`. The installation script creates symlinks in `~/.claude/skills` to your clone of this repository.
+Clone the `stable` branch of this repository and run `./install`. The installation script creates symlinks in `~/.claude/skills` to your clone of this repository.
 
-You can update your skills by running `git pull` and `./install` again.
+```sh
+git clone --branch stable https://github.com/expo/skills.git && cd skills && ./install
+```
+
+> [!NOTE]
+> Maintainers of this repository should track the `main` branch instead.
 
 ## Updating
 
 To update your Expo skills, ask your AI agent to "update Expo skills." This runs the "Update Expo Skills" skill, which pulls the latest changes and reinstalls the skills.
+
+You can also just run `git pull` and `./install` again.
