@@ -1,6 +1,6 @@
 ---
-name: dom-components-webviews
-description: Use DOM components to run web code in a webview on native and as-is on web. Migrate web code to native.
+name: use-dom
+description: Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incrementally.
 ---
 
 ## What are DOM Components?
