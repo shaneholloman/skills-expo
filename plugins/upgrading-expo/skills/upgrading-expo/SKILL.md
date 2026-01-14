@@ -82,6 +82,8 @@ Remove redundant metro config options:
 - resolver.unstable_enablePackageExports is enabled by default in SDK +53.
 - `experimentalImportSupport` is enabled by default in SDK +54.
 - `EXPO_USE_FAST_RESOLVER=1` is removed in SDK +54.
+- cjs and mjs extensions are supported by default in SDK +50.
+- Expo webpack is deprecated, migrate to [Expo Router and Metro web](https://docs.expo.dev/router/migrate/from-expo-webpack/).
 
 ## New Architecture
 
