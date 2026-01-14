@@ -3,6 +3,12 @@ name: upgrading-expo
 description: Guidelines for upgrading Expo SDK versions and fixing dependency issues
 ---
 
+## References
+
+- ./references/new-architecture.md -- SDK +53: New Architecture migration guide
+- ./references/react-19.md -- SDK +54: React 19 changes (useContext → use, Context.Provider → Context, forwardRef removal)
+- ./references/react-compiler.md -- SDK +54: React Compiler setup and migration guide
+
 ## Step-by-Step Upgrade Process
 
 1. Upgrade Expo and dependencies
@@ -50,6 +56,7 @@ This regenerates the `ios` and `android` directories. Ensure the project is not 
 
 - Review release notes for the target SDK version at https://expo.dev/changelog
 - If using Expo SDK 54 or later, ensure react-native-worklets is installed — this is required for react-native-reanimated to work.
+- Enable React Compiler in SDK 54+ by adding `"experiments": { "reactCompiler": true }` to app.json — it's stable and recommended
 - Delete sdkVersion from `app.json` to let Expo manage it automatically
 - Remove implicit packages from `package.json`: `@babel/core`, `babel-preset-expo`, `expo-constants`.
 - If the babel.config.js only contains 'babel-preset-expo', delete the file
