@@ -11,18 +11,19 @@ license: MIT
 
 Consult these resources as needed:
 
-- ./references/route-structure.md -- Route file conventions, dynamic routes, query parameters, groups, and folder organization
-- ./references/tabs.md -- Native tab bar with NativeTabs, migration from JS tabs, iOS 26 features
-- ./references/icons.md -- SF Symbols with expo-symbols, common icon names, animations, and weights
-- ./references/controls.md -- Native iOS controls: Switch, Slider, SegmentedControl, DateTimePicker, Picker
-- ./references/visual-effects.md -- Blur effects with expo-blur and liquid glass with expo-glass-effect
 - ./references/animations.md -- Reanimated animations: entering, exiting, layout, scroll-driven, and gestures
-- ./references/search.md -- Search bar integration with headers, useSearch hook, and filtering patterns
+- ./references/controls.md -- Native iOS controls: Switch, Slider, SegmentedControl, DateTimePicker, Picker
+- ./references/form-sheet.md -- Form sheets with footers using Stack navigator and react-native-screens
 - ./references/gradients.md -- CSS gradients using experimental_backgroundImage (New Architecture only)
+- ./references/icons.md -- SF Symbols with expo-symbols, common icon names, animations, and weights
 - ./references/media.md -- Media handling for Expo Router including camera, audio, video, and file saving
+- ./references/route-structure.md -- Route file conventions, dynamic routes, query parameters, groups, and folder organization
+- ./references/search.md -- Search bar integration with headers, useSearch hook, and filtering patterns
 - ./references/storage.md -- Data storage patterns including SQLite, AsyncStorage, and SecureStore
+- ./references/tabs.md -- Native tab bar with NativeTabs, migration from JS tabs, iOS 26 features
+- ./references/toolbar-and-headers.md -- Customizing stack headers and toolbar with buttons, menus, and search bars in expo-router app. Available only on iOS.
+- ./references/visual-effects.md -- Blur effects with expo-blur and liquid glass with expo-glass-effect
 - ./references/webgpu-three.md -- 3D graphics, games, and GPU-powered visualizations with WebGPU and Three.js
-- ./references/toolbars-and-headers.md -- Customizing stack headers and toolbar with buttons, menus, and search bars in expo-router app. Available only on iOS.
 
 ## Running the App
 
