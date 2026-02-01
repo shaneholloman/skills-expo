@@ -11,19 +11,22 @@ license: MIT
 
 Consult these resources as needed:
 
-- ./references/animations.md -- Reanimated animations: entering, exiting, layout, scroll-driven, and gestures
-- ./references/controls.md -- Native iOS controls: Switch, Slider, SegmentedControl, DateTimePicker, Picker
-- ./references/form-sheet.md -- Form sheets with footers using Stack navigator and react-native-screens
-- ./references/gradients.md -- CSS gradients using experimental_backgroundImage (New Architecture only)
-- ./references/icons.md -- SF Symbols with expo-symbols, common icon names, animations, and weights
-- ./references/media.md -- Media handling for Expo Router including camera, audio, video, and file saving
-- ./references/route-structure.md -- Route file conventions, dynamic routes, query parameters, groups, and folder organization
-- ./references/search.md -- Search bar integration with headers, useSearch hook, and filtering patterns
-- ./references/storage.md -- Data storage patterns including SQLite, AsyncStorage, and SecureStore
-- ./references/tabs.md -- Native tab bar with NativeTabs, migration from JS tabs, iOS 26 features
-- ./references/toolbar-and-headers.md -- Customizing stack headers and toolbar with buttons, menus, and search bars in expo-router app. Available only on iOS.
-- ./references/visual-effects.md -- Blur effects with expo-blur and liquid glass with expo-glass-effect
-- ./references/webgpu-three.md -- 3D graphics, games, and GPU-powered visualizations with WebGPU and Three.js
+```
+references/
+  animations.md          Reanimated: entering, exiting, layout, scroll-driven, gestures
+  controls.md            Native iOS: Switch, Slider, SegmentedControl, DateTimePicker, Picker
+  form-sheet.md          Form sheets with footers via Stack and react-native-screens
+  gradients.md           CSS gradients via experimental_backgroundImage (New Arch only)
+  icons.md               SF Symbols with expo-symbols, names, animations, weights
+  media.md               Camera, audio, video, and file saving
+  route-structure.md     Route conventions, dynamic routes, groups, folder organization
+  search.md              Search bar with headers, useSearch hook, filtering patterns
+  storage.md             SQLite, AsyncStorage, SecureStore
+  tabs.md                NativeTabs, migration from JS tabs, iOS 26 features
+  toolbar-and-headers.md Stack headers and toolbar buttons, menus, search (iOS only)
+  visual-effects.md      Blur (expo-blur) and liquid glass (expo-glass-effect)
+  webgpu-three.md        3D graphics, games, GPU visualizations with WebGPU and Three.js
+```
 
 ## Running the App
 
